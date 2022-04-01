@@ -1,6 +1,7 @@
-# Ask user for their name
-name = input("What's your name? ")
+def hello(to="world"):
+    print("Hello ", to)
 
-# Say hello to user
-print("Hello, ", end="")
-print(name)
+hello()
+name = input("What's your name? ")
+hello(name)
+#scope- where a variable's value is valid
